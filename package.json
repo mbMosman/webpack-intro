@@ -13,5 +13,8 @@
   "devDependencies": {
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "angular": "^1.6.9"
   }
 }

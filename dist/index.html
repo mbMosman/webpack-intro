@@ -9,7 +9,10 @@
     (Only need to source in the Webpacked bundle) -->
   <script src="bundle.js"></script>
 </head>
-<body>
+<body ng-app="AngularWebpackApp">
   <h1>Webpack demo</h1>
+  <div ng-controller="AngularWebPackController as vm">
+    <p>{{ vm.someString }}</p>
+  </div>
 </body>
 </html>
